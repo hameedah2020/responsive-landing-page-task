@@ -6,6 +6,7 @@
 }
 header{
     background:  url("images/bg-hero-desktop.svg");
+    background-color: #ebfbff;
     
 }
 header .top-nav{
@@ -27,33 +28,67 @@ header .top-nav{
     border-radius: 25px;
     padding:15px;
     font-weight:700;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     box-shadow: 0 6px 5px#0000001a ;
     border: none;
     margin-right: 35px;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:20px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     
 }
 .top-content{
     display: flex;
+    justify-content: space-around;
+    
 }
 .right-side img{
 width:684px;
 height:488px;
 }
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
 .left-side h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    margin-bottom: -30px;
+    
+    
 
 }
 .left-side p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    margin-top:-50px;
+    margin-bottom: -10px;
 }
 
-.left-side button{
+.left-side button
+{
+    color:white;
+    background-color: hsl(322,100%,66%);
+    border: none;
+    border-radius: 25px;
+    padding:15px;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-top: -65px;
     
+
+
+
+
 }
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;*/
+.resize{
+    width:300px;
+    height:227px;
+    border-radius: 15%;
+}
