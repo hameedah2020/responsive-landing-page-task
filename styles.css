@@ -212,11 +212,21 @@ footer{
 .contact{
     margin-left: 30px;
 }
-.about{
+.about, .career{
   box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
    align-items: center;
    padding: 0  10rem 30px 50px;
+  
+}
+.about ul {
+    list-style: none;
 }
 
+ .career ul{
+    list-style: none;
+}
+nav li {
+    margin-bottom: 15px;
+} 
